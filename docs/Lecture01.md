@@ -1,6 +1,6 @@
 ## <span style="color: blue">Measurements and Fundementals</span>
 <div style="position: absolute; top: 10px; right: 10px; z-index: 1000;">
-  <img src="Images/Logo.uni.png" alt="Logo" style="width:80px;">
+  <img src="https://rezapourian.github.io/Liascript/Images/Logo.uni.png" alt="Logo" style="width:80px;">
 </div>
 
 
@@ -26,12 +26,12 @@
 ## <strong style="color: blue">Transducer
 </strong>
 <div style="position: absolute; top: 10px; right: 10px; z-index: 1000;">
-  <img src="Images/Logo.uni.png" alt="Logo" style="width:80px;">
+  <img src="https://rezapourian.github.io/Liascript/Images/Logo.uni.png" alt="Logo" style="width:80px;">
 </div>
 
 
 - An electronic device which converts energy from one form to another, such as a microphone, which changes sound waves into electrical signals.
-![transducerandsensor](Images/transducerandsensor.png)
+![transducerandsensor](https://rezapourian.github.io/Liascript/Images/transducerandsensor.png)
 
 <span style="color: red">Some Examples</span>
 
@@ -61,17 +61,17 @@
 
 ## <span style="color: blue">Actuator</span>
 <div style="position: absolute; top: 10px; right: 10px; z-index: 1000;">
-  <img src="Images/Logo.uni.png" alt="Logo" style="width:80px;">
+  <img src="https://rezapourian.github.io/Liascript/Images/Logo.uni.png" alt="Logo" style="width:80px;">
 </div>
 
 - Part of a machine or system that moves something or makes something work.
   
-![actuator](Images/actuator.png) 
+![actuator](https://rezapourian.github.io/Liascript/Images/actuator.png) 
 ---
 
 ## <span style="color: blue">SI Basic Units</span>
 <div style="position: absolute; top: 10px; right: 10px; z-index: 1000;">
-  <img src="Images/Logo.uni.png" alt="Logo" style="width:80px;">
+  <img src="https://rezapourian.github.io/Liascript/Images/Logo.uni.png" alt="Logo" style="width:80px;">
 </div>
 
 <details>
@@ -142,7 +142,7 @@ Supplemental unit.
 ## <span style="color: blue">Example: Temperature as a Measurement</span>
 
 <div style="position: absolute; top: 10px; right: 10px; z-index: 1000;">
-  <img src="Images/Logo.uni.png" alt="Logo" style="width:80px;">
+  <img src="https://rezapourian.github.io/Liascript/Images/Logo.uni.png" alt="Logo" style="width:80px;">
 </div>
 
 Temperature shows nicely how a **unit of measurement** works: the same physical temperature can be written in different scales, as long as everyone agrees on a reference point.
@@ -159,7 +159,7 @@ Temperature shows nicely how a **unit of measurement** works: the same physical 
 - **Fahrenheit** uses a different zero point, historically based on a salt-ice mixture
 - **Kelvin** starts at *absolute zero* (the coldest possible temperature) so it has no negative values
 
-![Kelvin](Images/Kelvin.png)
+![Kelvin](https://rezapourian.github.io/Liascript/Images/Kelvin.png)
 
 <p align="center">
   <small>Source: <a href="https://blog.beamex.com/temperature-units-and-temperature-unit-conversion">Beamex – Temperature units and conversion</a></small>
