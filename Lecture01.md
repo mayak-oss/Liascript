@@ -1,6 +1,6 @@
 # Lecture 01 source has moved
 
-Edit **[docs/lecture01.md](docs/lecture01.md)** to change the published lecture.
+Edit **[docs/lectures/lecture01.md](docs/lectures/lecture01.md)** to change the published lecture.
 
 This file is a pointer only. The website does not load it.
 

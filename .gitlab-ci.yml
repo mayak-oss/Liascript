@@ -1,0 +1,16 @@
+# For an existing GitLab CI setup, merge this Pages job into that setup.
+# GitLab 17.9+ supports pages.publish; explicit artifacts also support 17.9.
+deploy-pages:
+  image: alpine:latest
+  stage: deploy
+  script:
+    - test -s docs/index.html
+    - test -s docs/contents.md
+    - test -s docs/lectures/lecture01.md
+  pages:
+    publish: docs
+  artifacts:
+    paths:
+      - docs
+  rules:
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
