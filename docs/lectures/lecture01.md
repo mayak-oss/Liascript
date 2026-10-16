@@ -1,4 +1,4 @@
-## <span style="color: blue">Measurements and Fundementals</span>
+## <span style="color: blue">Measurements and Fundamentals</span>
 
 <a href="../index.html?contents.md" target="_self">← All lectures</a>
 <div style="position: absolute; top: 10px; right: 10px; z-index: 1000;">
