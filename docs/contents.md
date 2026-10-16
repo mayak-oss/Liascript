@@ -1,4 +1,4 @@
-# <span style="color: blue">Measurements and Fundementals</span>
+# <span style="color: blue">Measurements and Fundamentals</span>
 
 <div style="position: absolute; top: 10px; right: 10px; z-index: 1000;">
   <img src="Images/Logo.uni.png" alt="University logo" style="width:80px;">
