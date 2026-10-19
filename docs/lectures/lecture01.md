@@ -17,8 +17,9 @@
 - Usually involves using a measuring instrument, <span style="color: red">which is calibrated</span> to compare the object to some standard.
 
 
-<video src="../Images/vid.measurement.small.mov" autoplay muted loop playsinline style="max-width:100%"></video>
-
+<div style="text-align:center;">
+<video src="../Images/vid.measurement.small.mov" autoplay muted loop playsinline style="width:400px; max-width:100%;"></video>
+</div>
 <strong style="color: blue">Sensor
 </strong>.
 
