@@ -267,6 +267,9 @@ What is 0 °C in Kelvin?
 
 ## <span style= "color: blue">Sensor Performance Parameters</span>
 
+<div style="position: absolute; top: 10px; right: 10px; z-index: 1000;">
+  <img src="../Images/Logo.uni.png" alt="Logo" style="width:80px;">
+</div>
 
 <details>
 <summary><span style="color:#2E8B57;"><b>Sensitivity</b></span></summary>
