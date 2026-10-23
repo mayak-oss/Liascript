@@ -266,7 +266,6 @@ What is 0 °C in Kelvin?
 ---
 
 ## <span style= "color: blue">Sensor Performance Parameters</span>
-
 <div style="position: absolute; top: 10px; right: 10px; z-index: 1000;">
   <img src="../Images/Logo.uni.png" alt="Logo" style="width:80px;">
 </div>
@@ -384,6 +383,327 @@ For example, an alcohol sensor may also respond to **acetone**.
 - [(X)] Actuator
 
 ---
+---
+
+## <span style="color: blue">Classifying Sensors</span>
+
+<div style="position: absolute; top: 10px; right: 10px; z-index: 1000;">
+  <img src="../Images/Logo.uni.png" alt="Logo" style="width:80px;">
+</div>
+
+
+Sensors can be sorted in three different ways. Here is the overview:
+
+<div style="max-width:560px; margin:1.5em auto; text-align:center;">
+<div style="display:inline-block; background:linear-gradient(135deg,#60a5fa,#1d4ed8); color:#fff; border-radius:14px; padding:14px 44px; font-size:1.5em; font-weight:bold; box-shadow:5px 5px 0 #1e3a8a;">Sensor</div>
+<div style="width:6px; height:22px; background:#1e3a8a; margin:0 auto;"></div>
+<div style="position:relative; z-index:2; width:26px; height:26px; border-radius:50%; background:#1e3a8a; margin:0 auto -16px;"></div>
+<div style="position:relative; display:flex;">
+<div style="position:absolute; top:0; left:16.66%; right:16.66%; height:6px; background:#1e3a8a;"></div>
+<div style="flex:1; display:flex; flex-direction:column; align-items:center;">
+<div style="width:6px; height:24px; background:#1e3a8a;"></div>
+<div style="width:22px; height:22px; border-radius:50%; background:#1e3a8a;"></div>
+<div style="width:6px; height:16px; background:#1e3a8a;"></div>
+<div style="width:88%; box-sizing:border-box; background:linear-gradient(135deg,#34d399,#059669); color:#fff; border-radius:14px; padding:14px 6px; font-weight:bold; box-shadow:5px 5px 0 #047857;">Direct /<br>Hybrid</div>
+</div>
+<div style="flex:1; display:flex; flex-direction:column; align-items:center;">
+<div style="width:6px; height:24px; background:#1e3a8a;"></div>
+<div style="width:22px; height:22px; border-radius:50%; background:#1e3a8a;"></div>
+<div style="width:6px; height:16px; background:#1e3a8a;"></div>
+<div style="width:88%; box-sizing:border-box; background:linear-gradient(135deg,#fbbf24,#d97706); color:#fff; border-radius:14px; padding:14px 6px; font-weight:bold; box-shadow:5px 5px 0 #b45309;">Passive /<br>Active</div>
+</div>
+<div style="flex:1; display:flex; flex-direction:column; align-items:center;">
+<div style="width:6px; height:24px; background:#1e3a8a;"></div>
+<div style="width:22px; height:22px; border-radius:50%; background:#1e3a8a;"></div>
+<div style="width:6px; height:16px; background:#1e3a8a;"></div>
+<div style="width:88%; box-sizing:border-box; background:linear-gradient(135deg,#a78bfa,#7c3aed); color:#fff; border-radius:14px; padding:14px 6px; font-weight:bold; box-shadow:5px 5px 0 #5b21b6;">Absolute /<br>Relative</div>
+</div>
+</div>
+</div>
+
+{{1}}
+<div style="border-top:4px solid #059669; margin-top:2em; padding-top:10px;">
+<div style="font-size:1.5em; font-weight:bold; color:#047857;">1 · Direct or Hybrid?</div>
+<div>Does the stimulus become an electrical signal in one step, or does it need extra steps first?</div>
+</div>
+
+{{2}}
+<div style="display:flex; flex-wrap:wrap; gap:14px; margin:1em 0;">
+<div style="flex:1; min-width:260px; border-top:6px solid #059669; background:#d1fae5; color:#1f2937; border-radius:10px; padding:10px 16px;">
+<div style="font-weight:bold; font-size:1.2em; color:#047857;">Direct</div>
+<ul style="margin:6px 0 0 0; padding-left:20px;">
+<li>Converts the stimulus straight into an electrical signal, or modifies an electrical signal that is supplied from outside.</li>
+<li>Works through a <b>certain physical effect</b> that converts energy directly into the generation or modulation of an electrical signal.</li>
+</ul>
+</div>
+<div style="flex:1; min-width:260px; border-top:6px solid #65a30d; background:#ecfccb; color:#1f2937; border-radius:10px; padding:10px 16px;">
+<div style="font-weight:bold; font-size:1.2em; color:#4d7c0f;">Hybrid</div>
+<ul style="margin:6px 0 0 0; padding-left:20px;">
+<li>In addition, it needs <b>one or more transducers</b> before a direct sensor can create the electrical output.</li>
+<li>The stimulus is converted step by step, through other forms of energy.</li>
+</ul>
+</div>
+</div>
+
+{{3}}
+**Examples of physical effects used by direct sensors** (we cover them in the next lecture):
+
+{{3}}
+<span style="display:inline-block; background:#d1fae5; color:#065f46; border:2px solid #059669; border-radius:20px; padding:4px 14px; margin:4px 4px 4px 0; font-weight:bold;">Photo effect</span> <span style="display:inline-block; background:#d1fae5; color:#065f46; border:2px solid #059669; border-radius:20px; padding:4px 14px; margin:4px 4px 4px 0; font-weight:bold;">Seebeck effect</span> <span style="display:inline-block; background:#d1fae5; color:#065f46; border:2px solid #059669; border-radius:20px; padding:4px 14px; margin:4px 4px 4px 0; font-weight:bold;">Piezo effect</span>
+
+{{4}}
+**Example of a hybrid sensor: a chemical sensor**
+
+{{4}}
+<div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:8px; margin:1em 0;">
+<div style="background:#ecfccb; color:#365314; border:2px solid #65a30d; border-radius:10px; padding:8px 12px; text-align:center;">Energy from an exothermic chemical reaction</div>
+<div style="flex-shrink:0; width:36px; height:20px; background:#059669; clip-path:polygon(0 28%,62% 28%,62% 0,100% 50%,62% 100%,62% 72%,0 72%);"></div>
+<div style="background:#ecfccb; color:#365314; border:2px solid #65a30d; border-radius:10px; padding:8px 12px; text-align:center;">Transducer</div>
+<div style="flex-shrink:0; width:36px; height:20px; background:#059669; clip-path:polygon(0 28%,62% 28%,62% 0,100% 50%,62% 100%,62% 72%,0 72%);"></div>
+<div style="background:#ecfccb; color:#365314; border:2px solid #65a30d; border-radius:10px; padding:8px 12px; text-align:center;">Heat</div>
+<div style="flex-shrink:0; width:36px; height:20px; background:#059669; clip-path:polygon(0 28%,62% 28%,62% 0,100% 50%,62% 100%,62% 72%,0 72%);"></div>
+<div style="background:linear-gradient(135deg,#34d399,#059669); color:#fff; border-radius:10px; padding:8px 12px; text-align:center; font-weight:bold;">Thermopile<br><small>(direct sensor)</small></div>
+<div style="flex-shrink:0; width:36px; height:20px; background:#059669; clip-path:polygon(0 28%,62% 28%,62% 0,100% 50%,62% 100%,62% 72%,0 72%);"></div>
+<div style="background:#d1fae5; color:#065f46; border:2px solid #059669; border-radius:10px; padding:8px 12px; text-align:center;">Electrical output signal</div>
+</div>
+
+{{4}}
+The first part (the transducer) is non-electrical, and the second part (the thermopile) is a simple direct sensor. Together they form a complex, **hybrid** sensor.
+
+{{5}}
+<div style="border-left:6px solid #d97706; background:#fef3c7; color:#1f2937; border-radius:8px; padding:10px 16px; margin:1em 0;">
+<div style="font-weight:bold; color:#b45309;">Good to know</div>
+A modern sensor never works by itself. It is always part of a larger system with other detectors, signal conditioners, processors, memory devices, data recorders and actuators.
+</div>
+
+{{6}}
+**Quick check:** In the chemical sensor, a transducer comes before the thermopile. What type of sensor is the whole system?
+
+{{6}}
+- [( )] Direct
+- [(X)] Hybrid
+
+{{7}}
+<div style="border-top:4px solid #d97706; margin-top:2em; padding-top:10px;">
+<div style="font-size:1.5em; font-weight:bold; color:#b45309;">2 · Passive or Active?</div>
+<div>Does the sensor need its own power supply to work?</div>
+</div>
+
+{{8}}
+<div style="border-left:6px solid #d97706; background:#fef3c7; color:#1f2937; border-radius:8px; padding:10px 16px; margin:1em 0;">
+<div style="font-weight:bold; font-size:1.2em; color:#b45309;">Passive</div>
+<ul style="margin:6px 0 0 0; padding-left:20px;">
+<li>Needs <b>no additional energy source</b>.</li>
+<li>Generates an electrical signal in response to an external stimulus.</li>
+<li>The energy of the input stimulus is converted by the sensor into the output signal.</li>
+</ul>
+<div style="margin-top:8px;"><b>Examples:</b> thermocouple, photodiode, piezoelectric sensor (many of them are direct sensors)</div>
+</div>
+
+{{9}}
+<div style="border-left:6px solid #ea580c; background:#ffedd5; color:#1f2937; border-radius:8px; padding:10px 16px; margin:1em 0;">
+<div style="font-weight:bold; font-size:1.2em; color:#c2410c;">Active</div>
+<ul style="margin:6px 0 0 0; padding-left:20px;">
+<li><b>Needs power</b> to operate. This power is called the <b>excitation signal</b>.</li>
+<li>The sensor modifies (modulates) this signal to produce the output signal.</li>
+<li>Often called <b>parametric</b>: the sensor's own properties (for example its resistance) change in response to an external stimulus, and these changes are then converted into electrical signals.</li>
+</ul>
+<div style="margin-top:8px;"><b>Examples:</b> thermistor (heated by current flow), resistive strain gauge</div>
+</div>
+
+{{10}}
+<div style="border-left:6px solid #0284c7; background:#e0f2fe; color:#1f2937; border-radius:8px; padding:10px 16px; margin:1em 0;">
+<div style="font-weight:bold; color:#0369a1;">In simple words</div>
+<b>Passive</b> is like a solar cell: light goes in, electricity comes out, and no battery is needed.<br>
+<b>Active</b> is like a thermistor: you send a small current through it, and the temperature changes how easily that current flows. The sensor changes ("modulates") the current you supplied.
+</div>
+
+{{11}}
+**Quick check:** Which of these sensors needs no additional energy source?
+
+{{11}}
+- [( )] Thermistor
+- [(X)] Thermocouple
+- [( )] Resistive strain gauge
+
+{{12}}
+<div style="border-top:4px solid #7c3aed; margin-top:2em; padding-top:10px;">
+<div style="font-size:1.5em; font-weight:bold; color:#6d28d9;">3 · Absolute or Relative?</div>
+<div>What is the signal measured from?</div>
+</div>
+
+{{13}}
+<div style="display:flex; flex-wrap:wrap; gap:14px; margin:1em 0;">
+<div style="flex:1; min-width:260px; border-top:6px solid #7c3aed; background:#ede9fe; color:#1f2937; border-radius:10px; padding:10px 16px;">
+<div style="font-weight:bold; font-size:1.2em; color:#6d28d9;">Absolute</div>
+<ul style="margin:6px 0 0 0; padding-left:20px;">
+<li>Detects a stimulus in reference to an <b>absolute physical scale</b>.</li>
+<li>This is <b>independent of the measurement conditions</b>.</li>
+</ul>
+<div style="margin-top:8px;"><b>Thermistor</b> (temperature-sensitive resistor): its electrical resistance relates directly to the absolute temperature scale, Kelvin.</div>
+<div style="margin-top:8px;"><b>Absolute pressure sensor:</b> produces a signal in reference to vacuum, an absolute zero on the pressure scale.</div>
+</div>
+<div style="flex:1; min-width:260px; border-top:6px solid #a21caf; background:#fae8ff; color:#1f2937; border-radius:10px; padding:10px 16px;">
+<div style="font-weight:bold; font-size:1.2em; color:#86198f;">Relative</div>
+<ul style="margin:6px 0 0 0; padding-left:20px;">
+<li>Produces a signal that relates to <b>some special case</b>, a chosen reference.</li>
+</ul>
+<div style="margin-top:8px;"><b>Thermocouple:</b> produces a voltage that depends on the temperature gradient across its wires. Its signal can't be tied to a particular temperature without a selected baseline.</div>
+<div style="margin-top:8px;"><b>Relative pressure sensor:</b> produces a signal with respect to a selected baseline that is not zero pressure, for example atmospheric pressure.</div>
+</div>
+</div>
+
+{{14}}
+<div style="border-left:6px solid #0284c7; background:#e0f2fe; color:#1f2937; border-radius:8px; padding:10px 16px; margin:1em 0;">
+<div style="font-weight:bold; color:#0369a1;">In simple words</div>
+<b>Absolute</b> means measured from true zero. <b>Relative</b> means measured from a reference point that you choose.<br>
+Everyday example: a car tire gauge shows the pressure <i>above</i> the surrounding air, so it is a relative measurement.
+</div>
+
+{{15}}
+**Quick check:** A sensor reports pressure compared to the atmosphere around it. What type is it?
+
+{{15}}
+- [( )] Absolute
+- [(X)] Relative
+
+{{16}}
+<div style="border-top:4px solid #1d4ed8; margin-top:2em; padding-top:10px;">
+<div style="font-size:1.5em; font-weight:bold; color:#1d4ed8;">Putting it together</div>
+<div>The three ways of classifying are <b>independent</b>: the same sensor can be described in all three ways at once.</div>
+</div>
+
+{{17}}
+| Sensor | Passive / Active | Absolute / Relative |
+|---|---|---|
+| Thermocouple | Passive | Relative |
+| Thermistor | Active | Absolute |
+
+{{17}}
+For example, a thermocouple needs no extra power (passive), but its signal always needs a reference temperature (relative).
+
+---
+
+## <span style="color: blue">Sensor System</span>
+
+<div style="position: absolute; top: 10px; right: 10px; z-index: 1000;">
+  <img src="../Images/Logo.uni.png" alt="Logo" style="width:80px;">
+</div>
+
+A sensor is usually only the <b>first part of a complete measurement system</b>.  
+Follow the signal from the <span style="color:#00AFC8;"><b>sensor</b></span> through processing to the final <span style="color:#A62472;"><b>output</b></span>  and, when needed, back to the object through an <span style="color:#5A9E22;"><b>actuator</b></span>.
+
+<!-- PUT YOUR SENSOR SYSTEM IMAGE HERE -->
+
+![Sensor.system](../Images/Sensor.system.png "<small>Source: Block diagram of a data acquisition and control system. Adapted from Handbook of Modern Sensors: Physics, Designs, and Applications (p. 8), by J. Fraden, 2016, Springer.</small>")
+
+{{1}}
+<div style="display:flex; align-items:stretch; gap:12px; margin:1em 0;">
+<div style="min-width:54px; background:#00AFC8; color:white; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:1.5em; font-weight:bold;">1</div>
+<div style="flex:1; border-left:5px solid #00AFC8; background:#e6fafd; color:#1f2937; border-radius:10px; padding:10px 16px;">
+<div style="font-size:1.15em; font-weight:bold; color:#008ca3;">Sensor & Interface · Detect</div>
+The <b>sensor</b> interacts with the object and responds to the quantity being measured. An <b>interface</b> may connect the sensor to the rest of the measurement system and prepare its signal for further processing.
+</div>
+</div>
+
+
+{{2}}
+<div style="display:flex; align-items:stretch; gap:12px; margin:1em 0;">
+<div style="min-width:54px; background:#55A630; color:white; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:1.5em; font-weight:bold;">2</div>
+<div style="flex:1; border-left:5px solid #55A630; background:#edf7df; color:#1f2937; border-radius:10px; padding:10px 16px;">
+<div style="font-size:1.15em; font-weight:bold; color:#4A8F28;">Multiplexer · Select</div>
+A system may contain <b>several sensors</b>. The <b>multiplexer</b> selects between their signals so that they can share a common processing path.
+</div>
+</div>
+
+
+{{3}}
+<div style="display:flex; align-items:stretch; gap:12px; margin:1em 0;">
+<div style="min-width:54px; background:#F28C18; color:white; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:1.5em; font-weight:bold;">3</div>
+<div style="flex:1; border-left:5px solid #F28C18; background:#fff3df; color:#1f2937; border-radius:10px; padding:10px 16px;">
+<div style="font-size:1.15em; font-weight:bold; color:#D97706;">Signal Conditioner · Prepare</div>
+The signal may need to be <b>filtered</b> to remove unwanted components or <b>amplified</b> if it is too weak. This prepares it for conversion and processing.
+</div>
+</div>
+
+
+{{4}}
+<div style="display:flex; align-items:stretch; gap:12px; margin:1em 0;">
+<div style="min-width:54px; background:#D7191C; color:white; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:1.5em; font-weight:bold;">4</div>
+<div style="flex:1; border-left:5px solid #D7191C; background:#feecec; color:#1f2937; border-radius:10px; padding:10px 16px;">
+<div style="font-size:1.15em; font-weight:bold; color:#B91C1C;">ADC · Convert</div>
+The <b>Analog-to-Digital Converter (ADC)</b> changes the conditioned analog signal into <b>digital data</b> that the computer can process.
+</div>
+</div>
+
+
+{{5}}
+<div style="display:flex; align-items:stretch; gap:12px; margin:1em 0;">
+<div style="min-width:54px; background:#A62472; color:white; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:1.5em; font-weight:bold;">5</div>
+<div style="flex:1; border-left:5px solid #A62472; background:#f8e8f2; color:#1f2937; border-radius:10px; padding:10px 16px;">
+<div style="font-size:1.15em; font-weight:bold; color:#8E1E62;">Computer & Output · Process</div>
+The <b>computer</b> processes the measured data. The information can then be sent to a <b>display, data recorder, alarm</b> or another connected device.
+</div>
+</div>
+
+
+{{6}}
+<div style="display:flex; align-items:stretch; gap:12px; margin:1em 0;">
+<div style="min-width:54px; background:#5A9E22; color:white; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:1.5em; font-weight:bold;">6</div>
+<div style="flex:1; border-left:5px solid #5A9E22; background:#edf6e5; color:#1f2937; border-radius:10px; padding:10px 16px;">
+<div style="font-size:1.15em; font-weight:bold; color:#4D861E;">Actuator · Act</div>
+The processed information can also be used to control an <b>actuator</b>. An electric motor or pneumatic valve can act on the object, creating a path back from the computer to the physical system.
+</div>
+</div>
+
+
+{{7}}
+<div style="border:2px solid #9CA3AF; background:#f3f4f6; color:#1f2937; border-radius:12px; padding:12px 18px; margin:1em 0;">
+<div style="font-size:1.15em; font-weight:bold; color:#6B7280;">Excitation Circuit · Some sensors need energy</div>
+
+Not every sensor operates independently. A <b>thermistor</b>, for example, is a temperature-sensitive resistor and needs a <b>current source</b>. In the diagram, this is provided by the <b>excitation circuit</b>.
+</div>
+
+
+{{8}}
+<div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:8px; margin:1.5em 0;">
+
+<div style="background:#e6fafd; color:#008ca3; border:2px solid #00AFC8; border-radius:10px; padding:8px 12px; font-weight:bold;">Sense</div>
+
+<div style="font-size:1.5em; color:#55A630;">→</div>
+
+<div style="background:#edf7df; color:#4A8F28; border:2px solid #55A630; border-radius:10px; padding:8px 12px; font-weight:bold;">Select</div>
+
+<div style="font-size:1.5em; color:#F28C18;">→</div>
+
+<div style="background:#fff3df; color:#D97706; border:2px solid #F28C18; border-radius:10px; padding:8px 12px; font-weight:bold;">Condition</div>
+
+<div style="font-size:1.5em; color:#D7191C;">→</div>
+
+<div style="background:#feecec; color:#B91C1C; border:2px solid #D7191C; border-radius:10px; padding:8px 12px; font-weight:bold;">Convert</div>
+
+<div style="font-size:1.5em; color:#A62472;">→</div>
+
+<div style="background:#f8e8f2; color:#8E1E62; border:2px solid #A62472; border-radius:10px; padding:8px 12px; font-weight:bold;">Process</div>
+
+</div>
+
+
+{{9}}
+<div style="border-left:6px solid #0284c7; background:#e0f2fe; color:#1f2937; border-radius:8px; padding:10px 16px; margin:1em 0;">
+<div style="font-weight:bold; color:#0369a1;">The big picture</div>
+
+A measurement system does more than simply <b>detect</b> a quantity:
+
+<b>physical quantity → sensing → signal preparation → digital conversion → processing → useful information</b>
+
+And when an actuator is included, the system can also <b>respond to what it measured</b>.
+</div>
+
+
+---
+
+
 ## Sensor → Measuring Instrument
 
 A **sensor** is a device that detects a physically measurable quantity and produces an equivalent **electrical signal**.
