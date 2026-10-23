@@ -595,7 +595,7 @@ Follow the signal from the <span style="color:#00AFC8;"><b>sensor</b></span> thr
 
 <!-- PUT YOUR SENSOR SYSTEM IMAGE HERE -->
 
-![Sensor.system](../Images/Sensor.system.png "<small>Source: Block diagram of a data acquisition and control system. Adapted from Handbook of Modern Sensors: Physics, Designs, and Applications (p. 8), by J. Fraden, 2016, Springer.</small>")
+![Sensor.system.1](../Images/Sensor.system.1.png "<small>Source: Block diagram of a data acquisition and control system. Adapted from Handbook of Modern Sensors: Physics, Designs, and Applications (p. 8), by J. Fraden, 2016, Springer.</small>")
 
 {{1}}
 <div style="display:flex; align-items:stretch; gap:12px; margin:1em 0;">
