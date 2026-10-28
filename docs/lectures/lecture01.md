@@ -593,7 +593,6 @@ For example, a thermocouple needs no extra power (passive), but its signal alway
 A sensor is usually only the <b>first part of a complete measurement system</b>.  
 Follow the signal from the <span style="color:#00AFC8;"><b>sensor</b></span> through processing to the final <span style="color:#A62472;"><b>output</b></span>  and, when needed, back to the object through an <span style="color:#5A9E22;"><b>actuator</b></span>.
 
-<!-- PUT YOUR SENSOR SYSTEM IMAGE HERE -->
 
 ![Sensor.system.1](../Images/Sensor.system.1.png "<small>Source: Block diagram of a data acquisition and control system. Adapted from Handbook of Modern Sensors: Physics, Designs, and Applications (p. 8), by J. Fraden, 2016, Springer.</small>")
 
@@ -704,138 +703,80 @@ And when an actuator is included, the system can also <b>respond to what it meas
 ---
 
 
-## Sensor → Measuring Instrument
-
-A **sensor** is a device that detects a physically measurable quantity and produces an equivalent **electrical signal**.
-
-In simple words:
-
-> **A sensor receives a stimulus and responds with an electrical signal.**
-
- 1. What enters the sensor?
-
-The **input** is called a **stimulus**.
-
-A stimulus can be a physical quantity, property, or condition that can be measured.
-
-<details>
-<summary><strong>Examples of stimuli</strong></summary>
-
-- Light intensity
-- Wavelength
-- Sound
-- Force
-- Acceleration
-- Temperature
-- Pressure
-- Rate of motion
-
-</details>
+---
 
 ---
 
- 2. What does the sensor do?
+## <span style="color:#2e7d32;">Chemical & Biological Sensors</span>
 
-The sensor **detects the stimulus** and converts it into an electrical signal.
-
-<div style="text-align:center; font-size:1.3em; margin:20px 0;">
-
-**Stimulus** → **Sensor** → **Electrical Signal**
-
+<div style="position:absolute; top:10px; right:10px; z-index:1000;">
+<img src="../Images/Logo.uni.png" alt="Logo" style="width:80px;">
 </div>
 
-For example:
+<span style="color:#555; font-size:1.1em;">Terms and Definitions</span>
 
-<div style="text-align:center; font-size:1.2em;">
+Not all sensors respond directly to a physical quantity.  
+<span style="color:#2e7d32;"><b>Chemical and biological sensors</b></span> use a recognition step before the detected information is converted into an electrical signal.
 
-**Temperature** → 🌡️ **Temperature Sensor** → **Voltage**
-
+<div style="text-align:center;">
+<video src="../Images/chemical.sensing.vid.mov" autoplay muted loop playsinline style="width:400px; max-width:100%;"></video>
 </div>
 
-The electrical signal may be represented as a **voltage, current, charge, or impedance**.
-
----
-
- 3. The mathematical idea
-
-The stimulus can be represented by **m**, while the sensor's output signal is represented by **s**.
-
-Therefore:
-
-<div style="text-align:center; font-size:1.8em; margin:20px;">
-
-**s = F(m)**
-
+{{1}}
+<div style="border-left:6px solid #4caf50; background:#e8f5e9; color:#1f2937; border-radius:10px; padding:14px 18px; margin:1.2em 0;">
+<div style="font-size:1.4em; font-weight:bold; color:#2e7d32;">Chemical Sensor</div>
+<div style="margin-top:6px;">A chemical sensor includes a <b>chemical sub-step</b> to achieve <span style="color:#2e7d32;"><b>chemical sensitivity and selectivity</b></span>.</div>
+<div style="margin-top:8px;">It contains a <b>functionalized chemical recognition layer</b> and often incorporates a <b>thin chemically sensitive film</b> on top of the physical transducer.</div>
 </div>
 
-This means that the output signal **s** is a function of the measured quantity **m**.
-
-> By measuring **s**, we can determine the value of **m**.
-
----
-
- Sensor sensitivity
-
-For a **linear sensor**, a change in the measured quantity produces a proportional change in the output signal:
-
-<div style="text-align:center; font-size:1.5em; margin:15px;">
-
-**Δs = S · Δm**
-
+{{1}}
+<div style="width:100%; white-space:nowrap; text-align:center; font-size:0; margin:1.3em 0;">
+<div style="display:inline-block; vertical-align:middle; width:21%; box-sizing:border-box; white-space:normal; font-size:clamp(10px,1.7vw,15px); background:#e8f5e9; color:#1b5e20; border:2px solid #4caf50; border-radius:10px; padding:10px 3px;"><b>Chemical substance</b></div>
+<div style="display:inline-block; vertical-align:middle; width:4.5%;"><div style="height:22px; background:#4caf50; clip-path:polygon(0 28%,62% 28%,62% 0,100% 50%,62% 100%,62% 72%,0 72%);"></div></div>
+<div style="display:inline-block; vertical-align:middle; width:21%; box-sizing:border-box; white-space:normal; font-size:clamp(10px,1.7vw,15px); background:linear-gradient(135deg,#66bb6a,#2e7d32); color:white; border-radius:10px; padding:10px 3px;"><b>Chemical<br>recognition layer</b></div>
+<div style="display:inline-block; vertical-align:middle; width:4.5%;"><div style="height:22px; background:#4caf50; clip-path:polygon(0 28%,62% 28%,62% 0,100% 50%,62% 100%,62% 72%,0 72%);"></div></div>
+<div style="display:inline-block; vertical-align:middle; width:21%; box-sizing:border-box; white-space:normal; font-size:clamp(10px,1.7vw,15px); background:#e8f5e9; color:#1b5e20; border:2px solid #4caf50; border-radius:10px; padding:10px 3px;">Physical<br>transducer</div>
+<div style="display:inline-block; vertical-align:middle; width:4.5%;"><div style="height:22px; background:#4caf50; clip-path:polygon(0 28%,62% 28%,62% 0,100% 50%,62% 100%,62% 72%,0 72%);"></div></div>
+<div style="display:inline-block; vertical-align:middle; width:21%; box-sizing:border-box; white-space:normal; font-size:clamp(10px,1.7vw,15px); background:#d1fae5; color:#065f46; border:2px solid #059669; border-radius:10px; padding:10px 3px;"><b>Signal</b></div>
 </div>
 
-where **S** is the sensor's sensitivity.
+<!-- picture for the chemical sensor goes here later -->
 
-For a nonlinear sensor:
-
-<div style="text-align:center; font-size:1.5em; margin:15px;">
-
-**S = ds/dm**
-
+{{2}}
+<div style="border-left:6px solid #2196f3; background:#e3f2fd; color:#1f2937; border-radius:10px; padding:14px 18px; margin:1.2em 0;">
+<div style="font-size:1.4em; font-weight:bold; color:#1565c0;">Biosensor</div>
+<div style="margin-top:6px;">A biosensor incorporates <span style="color:#1565c0;"><b>at least two processes</b></span>:</div>
+<ol style="margin:6px 0 4px 0; padding-left:22px;">
+<li>A <b>biochemical reaction</b> that defines the specificity of the sensor through a functionalized surface or <b>bio-substance recognition layer</b>.</li>
+<li>A <b>physical transduction process</b> that transforms the signal from the biochemical reaction into an <b>electrical readout signal</b>.</li>
+</ol>
 </div>
 
-<details>
-<summary><strong>💡 What does sensitivity mean?</strong></summary>
+{{2}}
+<div style="width:100%; white-space:nowrap; text-align:center; font-size:0; margin:1.3em 0;">
+<div style="display:inline-block; vertical-align:middle; width:21%; box-sizing:border-box; white-space:normal; font-size:clamp(10px,1.7vw,15px); background:#e3f2fd; color:#0d47a1; border:2px solid #2196f3; border-radius:10px; padding:10px 3px;"><b>Analyte</b></div>
+<div style="display:inline-block; vertical-align:middle; width:4.5%;"><div style="height:22px; background:#2196f3; clip-path:polygon(0 28%,62% 28%,62% 0,100% 50%,62% 100%,62% 72%,0 72%);"></div></div>
+<div style="display:inline-block; vertical-align:middle; width:21%; box-sizing:border-box; white-space:normal; font-size:clamp(10px,1.7vw,15px); background:linear-gradient(135deg,#42a5f5,#1565c0); color:white; border-radius:10px; padding:10px 3px;"><b>Biorecognition</b><br><small>Enzyme · Antibody · DNA</small></div>
+<div style="display:inline-block; vertical-align:middle; width:4.5%;"><div style="height:22px; background:#2196f3; clip-path:polygon(0 28%,62% 28%,62% 0,100% 50%,62% 100%,62% 72%,0 72%);"></div></div>
+<div style="display:inline-block; vertical-align:middle; width:21%; box-sizing:border-box; white-space:normal; font-size:clamp(10px,1.7vw,15px); background:#e3f2fd; color:#0d47a1; border:2px solid #2196f3; border-radius:10px; padding:10px 3px;"><b>Transducer</b></div>
+<div style="display:inline-block; vertical-align:middle; width:4.5%;"><div style="height:22px; background:#2196f3; clip-path:polygon(0 28%,62% 28%,62% 0,100% 50%,62% 100%,62% 72%,0 72%);"></div></div>
+<div style="display:inline-block; vertical-align:middle; width:21%; box-sizing:border-box; white-space:normal; font-size:clamp(10px,1.7vw,15px); background:#dbeafe; color:#1e3a8a; border:2px solid #2563eb; border-radius:10px; padding:10px 3px;"><b>Electrical readout</b></div>
+</div>
 
-Sensitivity describes how much the output signal changes when the measured quantity changes.
+{{2}}
 
-A highly sensitive sensor produces a relatively large change in its output for a small change in the input.
+![Biosensor](../Images/Biosensor.png "<small>Source: <a href="https://doi.org/10.1016/j.bios.2020.112940">Schematic showing the development of a biosensor interface</a></small>")
 
-</details>
 
----
 
- Quick self-check
-
-**Which sequence correctly describes the basic operation of a sensor?**
-
-[( ) Electrical signal → Sensor → Stimulus]
-
-[(X) Stimulus → Sensor → Electrical signal]
-
-[( ) Sensor → Stimulus → Electrical signal]
-
-[( ) Stimulus → Electrical signal → Sensor]
-
----
-
-**Think about this example:**
-
-A temperature sensor detects a change in temperature and produces a change in voltage.
-
-- **What is the stimulus?** → Temperature
-- **What is the sensor?** → Temperature sensor
-- **What is the output?** → Electrical signal (e.g. voltage)
-
-<details>
-<summary><strong>🔎 Key idea to remember</strong></summary>
-
-A sensor acts as a **translator**:
-
-**non-electrical quantity → electrical signal**
-
-This allows a physical quantity to be measured, processed, amplified, or displayed by an electronic system.
-
-</details>
+{{3}}
+<div style="border-left:6px solid #ff9800; background:#fff3e0; color:#1f2937; border-radius:10px; padding:14px 18px; margin:1.2em 0;">
+<div style="font-size:1.4em; font-weight:bold; color:#ef6c00;">Medical Sensor</div>
+<div style="margin-top:6px;">A <b>medical sensor</b> describes the broad area of sensors <span style="color:#ef6c00;"><b>incorporated in health care</b></span>.</div>
+<div style="margin-top:8px;">Medical sensors may be used as part of systems for <b>diagnostics, monitoring, and treatment</b>.</div>
+</div>
 
 ---
+
+## Sensor → Upcoming topics
+
