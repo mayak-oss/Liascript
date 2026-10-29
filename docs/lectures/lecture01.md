@@ -776,7 +776,298 @@ Not all sensors respond directly to a physical quantity.
 <div style="margin-top:8px;">Medical sensors may be used as part of systems for <b>diagnostics, monitoring, and treatment</b>.</div>
 </div>
 
+
 ---
 
-## Sensor → Upcoming topics
+## <span style="color: blue">Biosensors: Invasive or Non-invasive?</span>
+
+<div style="position:absolute; top:10px; right:10px; z-index:1000;">
+<img src="../Images/Logo.uni.png" alt="Logo" style="width:80px;">
+</div>
+
+Biosensors can be sorted by **how they get their information**, and by **where the measurement takes place**.
+
+<div style="text-align:center; margin:1em 0;">
+<img src="../Images/classes.biosensor.png" alt="Biosensors: invasive and non-invasive" style="max-width:420px; width:100%;">
+</div>
+
+
+ 
+<details>
+<summary>
+<span style="display:inline-block; background:#3b6ea5; color:#fff; font-weight:bold; font-size:1.15em; border-radius:20px; padding:6px 18px;">
+Invasive sensor
+</span>
+</summary>
+
+<div style="border-left:6px solid #697e94; background:#e8f0fa; color:#1f2937; border-radius:10px; padding:10px 16px; margin:8px 0 1em 0;">
+
+The sensor <b>must be in contact with the object of interest</b>. For a living body, this usually means it has to get into the body or break through its protective layer.
+
+<div style="margin-top:8px;">
+<b>For example:</b> a glucose sensor placed under the skin, or a finger-prick test.
+</div>
+
+</div>
+
+</details>
+
+
+<details>
+<summary>
+<span style="display:inline-block; background:#d97706; color:#fff; font-weight:bold; font-size:1.15em; border-radius:20px; padding:6px 18px;">
+Non-invasive sensor
+</span>
+</summary>
+
+<div style="border-left:6px solid #d97706; background:#fef3c7; color:#1f2937; border-radius:10px; padding:10px 16px; margin:8px 0 1em 0;">
+
+The sensor gets its information <b>without physically penetrating the protecting membranes</b> of a living object, such as the skin.
+
+<div style="margin-top:8px;">
+<b>For example:</b> a wearable patch that measures lactate in sweat on the skin surface.
+</div>
+
+</div>
+
+</details>
+
+
+<div style="border-top:4px solid #1d4ed8; margin-top:2em; padding-top:10px;">
+<div style="font-size:1.5em; font-weight:bold; color:#1d4ed8;">
+Where does the measurement happen?
+</div>
+</div>
+
+
+<details>
+<summary>
+<span style="display:inline-block; background:#2563eb; color:#fff; font-weight:bold; font-size:1.15em; border-radius:20px; padding:6px 18px;">
+in vivo
+</span>
+</summary>
+
+<div style="border-left:6px solid #2563eb; background:#dbeafe; color:#1f2937; border-radius:10px; padding:10px 16px; margin:8px 0 1em 0;">
+
+From Latin: <b>"within the living"</b>. The measurement happens inside the living organism, in its <b>natural environment</b>.
+
+<div style="margin-top:8px;">
+<b>For example:</b> an implanted sensor that measures glucose directly in the body.
+</div>
+
+</div>
+
+</details>
+
+
+<details>
+<summary>
+<span style="display:inline-block; background:#b91c1c; color:#fff; font-weight:bold; font-size:1.15em; border-radius:20px; padding:6px 18px;">
+ex vivo & in vitro
+</span>
+</summary>
+
+<div style="border-left:6px solid #b91c1c; background:#fee2e2; color:#1f2937; border-radius:10px; padding:10px 16px; margin:8px 0 1em 0;">
+
+<b>Ex vivo</b> means <b>"out of the living"</b>: the measurement is done on material that was taken out of the body.
+
+<div style="margin:8px 0 14px 0;">
+<b>Example:</b> measuring a blood sample after it has been taken from the body.
+</div>
+
+<b>In vitro</b> means <b>"inside the glass"</b>: the measurement is performed under laboratory conditions outside the living organism.
+
+<div style="margin-top:8px;">
+<b>Example:</b> cells in a dish or a sample in a test tube.
+</div>
+
+</div>
+
+</details>
+
+
+<details>
+<summary>
+<span style="display:inline-block; background:#16a34a; color:#fff; font-weight:bold; font-size:1.15em; border-radius:20px; padding:6px 18px;">
+in situ
+</span>
+</summary>
+
+<div style="border-left:6px solid #16a34a; background:#dcfce7; color:#1f2937; border-radius:10px; padding:10px 16px; margin:8px 0 1em 0;">
+
+From Latin: <b>"in place"</b>. The sample is not moved somewhere else for measurement. Instead, the measurement is performed <b>directly at the place of interest</b>.
+
+<div style="margin-top:8px;">
+<b>For example:</b> a sensor placed directly in a river to measure water quality.
+</div>
+
+</div>
+
+</details>
+
+
+<div style="border-left:6px solid #7c3aed; background:#ede9fe; color:#1f2937; border-radius:8px; padding:10px 16px; margin:1.5em 0;">
+
+<div style="font-weight:bold; color:#6d28d9;">Keep the two classifications separate</div>
+
+<b>Invasive / non-invasive</b> → How does the sensor access the object or sample?<br>
+<b>In vivo / ex vivo / in vitro / in situ</b> → Where does the measurement take place?
+
+</div>
+
+
+**Quick check 1:** A wearable patch measures lactate in sweat on the skin surface without breaking the skin. What kind of sensor is it?
+
+- [( )] Invasive
+- [(X)] Non-invasive
+
+
+**Quick check 2:** A sensor is implanted inside the body and measures there continuously. Which term fits?
+
+- [(X)] in vivo
+- [( )] ex vivo
+- [( )] in vitro
+
+---
+
+## <span style="color:#2e7d32;">Biosensing in Practice</span>
+
+<div style="position:absolute; top:10px; right:10px; z-index:1000;">
+  <img src="../Images/Logo.uni.png" alt="Logo" style="width:80px;">
+</div>
+
+A biosensor is more than just a sensing element. In practice, **recognition, transduction and signal processing work together** to turn information about an analyte into a signal that we can measure and interpret.
+
+The examples below show different ways this principle is applied.
+
+
+{{1}}
+<div 
+style="border-left:6px solid #65a30d; background:#f7fee7; color:#1f2937; border-radius:10px; padding:12px 16px; margin:1.2em 0;">
+
+<div style="font-size:1.25em; font-weight:bold; color:#4d7c0f;">
+1 · Biosensors for Detection
+</div>
+
+<div style="display:flex; flex-wrap:wrap; align-items:center; gap:20px; margin-top:10px;">
+
+<div style="flex:1; min-width:280px; text-align:center;">
+
+<img src="../Images/Quino.png"
+     alt="Biosensor detection using nanomaterials"
+     style="width:100%; max-width:500px;">
+
+<br>
+
+<small>
+Source:
+<a href="10.1016/j.tibtech.2019.01.004" target="_blank">
+Application of Biosensors for the Detection of Quinolones Residues in Animal-Derived Foods
+</a>
+</small>
+
+</div>
+
+Here, the sensor is used to <b>detect a target substance</b>.  
+The example shows the detection of <b>quinolone antibiotics</b>, which is relevant for monitoring antibiotic residues and resistance.
+
+<span style="color:#4d7c0f;"><b>Nanomaterials</b></span> can be incorporated into the sensing system to improve the detection process.
+
+The final response can then be measured using different methods, such as:
+
+- <b>Optical detection</b> → changes in light or absorbance
+- <b>Electrochemical detection</b> → changes in an electrical signal
+
+</div>
+</div>
+
+
+
+{{2}}
+<div style="border-left:6px solid #0891b2; background:#ecfeff; color:#1f2937; border-radius:10px; padding:12px 16px; margin:1.2em 0;">
+
+<div style="font-size:1.25em; font-weight:bold; color:#0e7490;">
+2 · From Molecular Recognition to a Measurable Signal
+</div>
+
+<div style="display:flex; flex-wrap:wrap; align-items:center; gap:20px; margin-top:10px;">
+
+<div style="flex:1; min-width:280px; text-align:center;">
+
+<img src="../Images/Recog.Bio.png"
+     alt="Biosensor detection using nanomaterials"
+     style="width:100%; max-width:500px;">
+
+<br>
+
+<small>
+Source:
+<a href="10.3390/mi10040222 " target="_blank">
+The biosensor reacts with the target substance to produce an electrical signal.
+</a>
+</small>
+
+</div>
+This example shows the basic chain of a biosensor more clearly.
+
+The <span style="color:#0e7490;"><b>biorecognition element</b></span> selectively interacts with the analyte while other substances may be present as <b>interferences</b>.
+
+The information from this recognition step is then passed to the <b>transducer</b>.
+
+<div style="margin:12px 0; text-align:center; font-weight:bold; color:#0e7490;">
+Molecular recognition → Signal transformation → Recording & display
+</div>
+
+The transducer converts the biological information into a measurable signal, which can then be <b>recorded, processed and displayed</b>.
+
+</div>
+</div>
+
+
+
+{{3}}
+<div style="border-left:6px solid #7c3aed; background:#f5f3ff; color:#1f2937; border-radius:10px; padding:12px 16px; margin:1.2em 0;">
+
+<div style="font-size:1.25em; font-weight:bold; color:#6d28d9;">
+3 · The Complete Biosensing System
+</div>
+
+<div style="display:flex; flex-wrap:wrap; align-items:center; gap:20px; margin-top:10px;">
+
+<div style="flex:1; min-width:280px; text-align:center;">
+
+<img src="../Images/system.Bio.png"
+     alt="Biosensor detection using nanomaterials"
+     style="width:100%; max-width:500px;">
+
+<br>
+
+<small>
+Source:
+<a href="10.4236/jbnb.2019.102007." target="_blank">
+Biosensing System
+</a>
+</small>
+
+</div>
+
+A complete biosensing system combines several stages.
+
+The <b>analyte</b> may be something such as <b>urea, an antigen, pesticides or target DNA</b>.
+
+It first interacts with a <span style="color:#16a34a;"><b>biological recognition element</b></span>, for example:
+
+<b>enzymes · molecular imprints · receptors · antibodies · nucleic acids</b>
+
+The resulting information is passed to a <span style="color:#d97706;"><b>transducer</b></span>, which may be:
+
+<b>electrical · electrochemical · optical · thermal · acoustic · piezoelectric</b>
+
+The signal can then be <b>amplified</b> and finally sent to <span style="color:#7c3aed;"><b>microelectronics and data processing</b></span>.
+
+</div>
+</div>
+
+
+---
 
