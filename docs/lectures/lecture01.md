@@ -707,7 +707,7 @@ And when an actuator is included, the system can also <b>respond to what it meas
 
 ---
 
-## <span style="color:#2e7d32;">Chemical & Biological Sensors</span>
+## <span style="color:blue;">Chemical & Biological Sensors</span>
 
 <div style="position:absolute; top:10px; right:10px; z-index:1000;">
 <img src="../Images/Logo.uni.png" alt="Logo" style="width:80px;">
@@ -930,7 +930,7 @@ From Latin: <b>"in place"</b>. The sample is not moved somewhere else for measur
 
 ---
 
-## <span style="color:#2e7d32;">Biosensing in Practice</span>
+## <span style="color:blue;">Biosensing in Practice</span>
 
 <div style="position:absolute; top:10px; right:10px; z-index:1000;">
   <img src="../Images/Logo.uni.png" alt="Logo" style="width:80px;">
