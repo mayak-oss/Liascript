@@ -132,3 +132,121 @@ In Lecture 1 we saw that a sensor turns a stimulus into an electrical signal. Th
 - [( )] Piezoelectric
 - [(X)] Thermoresistive
 - [( )] Photoelastic
+
+---
+
+## <span style="color: blue">Piezoelectric Phenomenon</span>
+<div style="position: absolute; top: 10px; right: 10px; z-index: 1000;">
+  <img src="../Images/Logo.uni.png" alt="Logo" style="width:80px;">
+</div>
+
+<div style="display:flex; flex-wrap:wrap; gap:10px; margin:1em 0;">
+<div style="background:linear-gradient(135deg,#60a5fa,#2563eb); color:#fff; border-radius:20px; padding:6px 18px; font-weight:bold;">Discovered 1880 – 1881</div>
+<div style="background:#dbeafe; color:#1e3a8a; border:2px solid #2563eb; border-radius:20px; padding:6px 18px;">by the French physicists Jacques and Pierre Curie</div>
+</div>
+
+<div style="border-left:6px solid #dc2626; background:#fee2e2; color:#1f2937; border-radius:10px; padding:12px 18px; margin:1.2em 0;">
+<div style="font-weight:bold; font-size:1.2em; color:#b91c1c;">The essence</div>
+When a <b>mechanical force</b> is applied to a crystal, the crystal becomes <b>electrically polarized</b>.
+</div>
+
+<div style="text-align:center;">
+<video src="../Images/movig.quartz.mov" autoplay muted loop playsinline style="width:400px; max-width:100%;"></video>
+</div>
+
+[source](https://en.wikipedia.org/wiki/Piezoelectric_sensor)
+
+<div style="display:flex; flex-wrap:wrap; gap:14px; margin:1.2em 0;">
+<div style="flex:1; min-width:240px; border-top:6px solid #2563eb; background:#dbeafe; color:#1f2937; border-radius:10px; padding:10px 16px;">
+<div style="font-weight:bold; font-size:1.2em; color:#1d4ed8;">Compression</div>
+Squeezing the crystal produces electric charges on its surfaces.
+</div>
+<div style="flex:1; min-width:240px; border-top:6px solid #7c3aed; background:#ede9fe; color:#1f2937; border-radius:10px; padding:10px 16px;">
+<div style="font-weight:bold; font-size:1.2em; color:#6d28d9;">Stretching</div>
+Pulling the crystal produces charges of the <b>opposite polarity</b>.
+</div>
+</div>
+
+<div style="border-left:6px solid #d97706; background:#fef3c7; color:#1f2937; border-radius:8px; padding:10px 16px; margin:1em 0;">
+The size of the polarization is <b>proportional</b> to the size of the mechanical action: twice the force gives twice the charge.
+</div>
+
+<div style="border-left:6px solid #0284c7; background:#e0f2fe; color:#1f2937; border-radius:8px; padding:10px 16px; margin:1em 0;">
+<div style="font-weight:bold; color:#0369a1;">Why does it happen?</div>
+In the unloaded crystal, the centers of the positive and the negative charges sit at the same point, so the crystal looks neutral from outside. A force shifts the ions, the two centers move apart, and charges of opposite sign appear on opposite faces of the crystal.
+</div>
+
+![quarz.bluered](../Images/quarz.bluered.png "<small><a href="https://doi.org/10.3390/s21041112?urlappend=%3Futm_source%3Dresearchgate.net%26utm_medium%3Darticle">illustrating the piezoelectric effect</a></small>")
+
+<div style="font-weight:bold; font-size:1.2em; color:#1d4ed8; margin-top:1.5em;">The effect works in both directions</div>
+
+<div style="display:flex; flex-wrap:wrap; gap:14px; margin:1em 0;">
+<div style="flex:1; min-width:240px; border-top:6px solid #2563eb; background:#dbeafe; color:#1f2937; border-radius:10px; padding:10px 16px;">
+<div style="font-weight:bold; font-size:1.2em; color:#1d4ed8;">Direct effect</div>
+A mechanical force produces an electric charge.
+</div>
+<div style="flex:1; min-width:240px; border-top:6px solid #ea580c; background:#ffedd5; color:#1f2937; border-radius:10px; padding:10px 16px;">
+<div style="font-weight:bold; font-size:1.2em; color:#c2410c;">Reverse effect</div>
+An electric field makes the crystal change its shape.
+</div>
+</div>
+
+The next slides look at both effects in detail.
+
+<div style="border-left:6px solid #16a34a; background:#dcfce7; color:#1f2937; border-radius:8px; padding:10px 16px; margin:1em 0;">
+<div style="font-weight:bold; color:#15803d;">In simple words</div>
+"Piezo" comes from the Greek word for "to press". Press a piezoelectric crystal and it produces electricity. This is how many gas lighters make their spark: a small hammer hits a crystal, and the charge that appears creates the spark.
+</div>
+
+**Quick check:** Which statement describes the direct piezoelectric effect?
+
+- [(X)] A force on the crystal produces an electric charge
+- [( )] A voltage on the crystal makes it change its shape
+- [( )] Light on the crystal produces an electric current
+
+<div style="border-top:4px solid #1d4ed8; margin-top:2em; padding-top:10px;">
+<div style="font-size:1.5em; font-weight:bold; color:#1d4ed8;">Piezoelectric material</div>
+</div>
+
+<div style="border-left:6px solid #2563eb; background:#dbeafe; color:#1f2937; border-radius:10px; padding:12px 18px; margin:1.2em 0;">
+Piezoelectrics are characterized by a material’s crystal structure with a <b>covalent or ionic bond without a center of symmetry</b>.
+</div>
+
+<div style="border-left:6px solid #7c3aed; background:#ede9fe; color:#1f2937; border-radius:10px; padding:12px 18px; margin:1.2em 0;">
+Materials with <b>low conductivity</b>, in which there are negligibly few free charge carriers, are characterized by <b>high piezoelectric performance</b>.
+</div>
+
+![Tourma](../Images/Tourma.png "<small><a href="https://sijr.sahyadri.edu.in/Articles/Volume%203/Issue%201/6.pdf">Crystal structure of a piezoelectric</a></small>")
+
+
+<div style="border-left:6px solid #0d9488; background:#ccfbf1; color:#1f2937; border-radius:10px; padding:12px 18px; margin:1.2em 0;">
+Many piezoelectrics are made on the basis of substances with the formula <b>ABO<sub>3</sub></b>, such as BaTiO<sub>3</sub>, PbTiO<sub>3</sub>. These materials have a polycrystalline (consisting of many crystals) structure.
+</div>
+
+<div style="display:flex; align-items:center; gap:14px; margin:1em 0 1em 24px;">
+<div style="flex-shrink:0; width:60px; height:30px; background:#2563eb; clip-path:polygon(0 28%,62% 28%,62% 0,100% 50%,62% 100%,62% 72%,0 72%);"></div>
+<div style="font-size:1.5em; font-weight:bold; font-style:italic; color:#1d4ed8;">Ferroelectrics!</div>
+</div>
+
+<div style="border-left:6px solid #db2777; background:#fce7f3; color:#1f2937; border-radius:10px; padding:12px 18px; margin:1.2em 0;">
+<div style="font-weight:bold; font-size:1.2em; color:#be185d;">What are ferroelectrics?</div>
+Crystals that show the phenomenon of <b>ferroelectricity</b> are called ferroelectrics. In ferroelectricity, a <b>spontaneous polarization</b> occurs in the crystal within a certain temperature range, even without an external electric field. This polarization can be reoriented by applying such a field.<br>
+In the picture above, (b) shows the structure below the critical temperature T<sub>c</sub> with the spontaneous polarization P, and (a) shows it above T<sub>c</sub>.
+</div>
+
+<div style="border-left:6px solid #ea580c; background:#ffedd5; color:#1f2937; border-radius:10px; padding:12px 18px; margin:1.2em 0;">
+<b><i>Piezoelectric semiconductors:</i></b> Cadmium sulfide CdS, zinc oxide ZnO, zinc sulfide ZnS, cadmium selenide CdSe, gallium arsenide GaAs, etc. are examples of semiconductor-type compounds with ionic-covalent bonding.
+</div>
+
+<div style="border-left:6px solid #16a34a; background:#dcfce7; color:#1f2937; border-radius:8px; padding:10px 16px; margin:1em 0;">
+<div style="font-weight:bold; color:#15803d;">In simple words</div>
+<b>Why no center of symmetry?</b> In a crystal with a center of symmetry, a force moves the positive and negative charges in a balanced way, so no net charge appears. Without that symmetry, the charge centers shift differently and the crystal becomes polarized.<br>
+<b>Why low conductivity?</b> Free charge carriers can move around and cancel the charges that the force creates. With very few of them, the charges stay and can be used.
+</div>
+
+**Quick check:** Which crystal property is needed for a material to be piezoelectric?
+
+- [(X)] A crystal structure without a center of symmetry
+- [( )] Very high electrical conductivity
+- [( )] A large number of free charge carriers
+
