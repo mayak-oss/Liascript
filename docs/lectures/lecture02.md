@@ -178,6 +178,15 @@ In the unloaded crystal, the centers of the positive and the negative charges si
 
 ![quarz.bluered](../Images/quarz.bluered.png "<small><a href="https://doi.org/10.3390/s21041112?urlappend=%3Futm_source%3Dresearchgate.net%26utm_medium%3Darticle">illustrating the piezoelectric effect</a></small>")
 
+
+<div style="text-align:center;">
+<video src="../Images/effect.p.mov" autoplay muted loop playsinline style="width:400px; max-width:100%;"></video>
+</div>
+
+[The Piezoelectric Effect](https://www.youtube.com/watch?v=y2pAFuSciB4)
+ 
+
+
 <div style="font-weight:bold; font-size:1.2em; color:#1d4ed8; margin-top:1.5em;">The effect works in both directions</div>
 
 <div style="display:flex; flex-wrap:wrap; gap:14px; margin:1em 0;">
