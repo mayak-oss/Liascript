@@ -250,3 +250,119 @@ In the picture above, (b) shows the structure below the critical temperature T<s
 - [( )] Very high electrical conductivity
 - [( )] A large number of free charge carriers
 
+
+## <span style="color: blue">Direct and Reverse Effect</span>
+
+<div style="position:absolute; top:10px; right:10px; z-index:1000;">
+<img src="../Images/Logo.uni.png" alt="Logo" style="width:80px;">
+</div>
+
+<div style="max-width:520px; margin:1.5em auto; text-align:center;">
+<div style="display:inline-block; background:linear-gradient(135deg,#60a5fa,#1d4ed8); color:#fff; border-radius:14px; padding:14px 36px; font-size:1.4em; font-weight:bold; box-shadow:5px 5px 0 #1e3a8a;">Piezoelectric Phenomenon</div>
+<div style="width:6px; height:26px; background:#1e3a8a; margin:0 auto;"></div>
+<div style="position:relative; display:flex;">
+<div style="position:absolute; top:0; left:25%; right:25%; height:6px; background:#1e3a8a;"></div>
+<div style="flex:1; display:flex; flex-direction:column; align-items:center;">
+<div style="width:6px; height:26px; background:#1e3a8a;"></div>
+<div style="width:86%; box-sizing:border-box; background:linear-gradient(135deg,#34d399,#059669); color:#fff; border-radius:14px; padding:14px 6px; font-weight:bold; font-size:1.2em; box-shadow:5px 5px 0 #1e3a8a;">Direct<br><small style="font-weight:normal;">force → charge</small></div>
+</div>
+<div style="flex:1; display:flex; flex-direction:column; align-items:center;">
+<div style="width:6px; height:26px; background:#1e3a8a;"></div>
+<div style="width:86%; box-sizing:border-box; background:linear-gradient(135deg,#fb923c,#ea580c); color:#fff; border-radius:14px; padding:14px 6px; font-weight:bold; font-size:1.2em; box-shadow:5px 5px 0 #9a3412;">Reverse<br><small style="font-weight:normal;">electric field → shape change</small></div>
+</div>
+</div>
+</div>
+
+<div style="border-top:4px solid #2563eb; margin-top:2em; padding-top:10px;">
+<div style="font-size:1.5em; font-weight:bold; color:#1d4ed8;">Direct piezoelectric effect</div>
+</div>
+
+<div style="border-left:6px solid #2563eb; background:#dbeafe; color:#1f2937; border-radius:10px; padding:12px 18px; margin:1.2em 0;">
+The <b>direct piezoelectric effect</b> is characterized by the <b>electric polarization of the dielectric</b>, which occurs due to the action of an <b>external mechanical stress</b> on it, while the charge induced on the surface of the dielectric is <b>proportional to the applied mechanical stress</b>.
+</div>
+
+<div style="border:4px solid #7c3aed; border-radius:20px; padding:10px 14px 16px 14px; margin:1.2em 0; text-align:center;">
+<div style="font-weight:bold; font-style:italic; color:#6d28d9; margin-bottom:10px;">Direct piezoelectric effect</div>
+<div style="width:100%; white-space:nowrap; font-size:0;">
+<div style="display:inline-block; vertical-align:middle; width:38%; box-sizing:border-box; white-space:normal; font-size:clamp(12px,2vw,16px); border:3px solid #2563eb; color:#1f2937; padding:10px 4px;">1<br>Mechanical force</div>
+<div style="display:inline-block; vertical-align:middle; width:14%;"><div style="height:26px; width:70%; margin:0 auto; background:#f59e0b; clip-path:polygon(0 28%,62% 28%,62% 0,100% 50%,62% 100%,62% 72%,0 72%);"></div></div>
+<div style="display:inline-block; vertical-align:middle; width:38%; box-sizing:border-box; white-space:normal; font-size:clamp(12px,2vw,16px); border:3px solid #dc2626; color:#b91c1c; font-weight:bold; padding:10px 4px;">2<br>Polarization of solids</div>
+</div>
+</div>
+
+![pdt](../Images/pdt.png "<small><a href="https://doi.org/10.5545/sv-jme.2016.3656">Direct piezoelectric effect</a></small>")
+
+
+<div style="border-left:6px solid #7c3aed; background:#f5f3ff; color:#1f2937; border-radius:10px; padding:12px 18px; margin:1.2em 0;">
+The dependence of <b>polarization (P)</b> on mechanical stress is <b>linear</b> and is described by the expression:
+<div style="text-align:center; font-size:2em; font-weight:bold; margin:10px 0;"><span style="color:#7c3aed;"><i>P</i></span> = <span style="color:#ea580c;"><i>d</i></span> · <span style="color:#2563eb;"><i>T</i></span></div>
+<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:16px; font-size:0.95em;">
+<div><b style="color:#7c3aed;"><i>P</i></b> = polarization</div>
+<div><b style="color:#ea580c;"><i>d</i></b> = coefficient: piezoelectric modulus</div>
+<div><b style="color:#2563eb;"><i>T</i></b> = mechanical stress</div>
+</div>
+</div>
+
+<div style="border-top:4px solid #ea580c; margin-top:2em; padding-top:10px;">
+<div style="font-size:1.5em; font-weight:bold; color:#c2410c;">Reverse piezoelectric effect</div>
+</div>
+
+<div style="border-left:6px solid #ea580c; background:#ffedd5; color:#1f2937; border-radius:10px; padding:12px 18px; margin:1.2em 0;">
+With the <b>reverse piezoelectric effect</b>, the phenomenon manifests itself in the opposite way: the dielectric <b>changes its dimensions</b> under the action of an <b>external electric field</b> applied to it, while the magnitude of the mechanical deformation (relative deformation) is <b>proportional to the strength of the electric field</b> applied to the sample.
+</div>
+
+<div style="border:4px solid #16a34a; border-radius:20px; padding:10px 14px 16px 14px; margin:1.2em 0; text-align:center;">
+<div style="font-weight:bold; font-style:italic; color:#15803d; margin-bottom:10px;">Reverse piezoelectric effect</div>
+<div style="width:100%; white-space:nowrap; font-size:0;">
+<div style="display:inline-block; vertical-align:middle; width:38%; box-sizing:border-box; white-space:normal; font-size:clamp(12px,2vw,16px); border:3px solid #dc2626; color:#b91c1c; padding:10px 4px;">1<br>Electric field</div>
+<div style="display:inline-block; vertical-align:middle; width:14%;"><div style="height:26px; width:70%; margin:0 auto; background:#f59e0b; clip-path:polygon(0 28%,62% 28%,62% 0,100% 50%,62% 100%,62% 72%,0 72%);"></div></div>
+<div style="display:inline-block; vertical-align:middle; width:38%; box-sizing:border-box; white-space:normal; font-size:clamp(12px,2vw,16px); border:3px solid #2563eb; color:#1f2937; padding:10px 4px;">2<br>Dimensions of solids</div>
+</div>
+</div>
+
+![rde](../Images/rde.png "<small><a href="https://www.semiconductorforu.com/what-is-piezoelectric-transducer/">Reverse piezoelectric effect</a></small>")
+
+<div style="border-left:6px solid #16a34a; background:#f0fdf4; color:#1f2937; border-radius:10px; padding:12px 18px; margin:1.2em 0;">
+When the <b>direction</b> of the applied electric field changes, the <b>direction of deformation</b> changes. Here the dependence is also <b>linear</b>:
+<div style="text-align:center; font-size:2em; font-weight:bold; margin:10px 0;"><span style="color:#16a34a;"><i>r</i></span> = <span style="color:#ea580c;"><i>d</i></span> · <span style="color:#dc2626;"><i>E</i></span></div>
+<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:16px; font-size:0.95em;">
+<div><b style="color:#16a34a;"><i>r</i></b> = deformation</div>
+<div><b style="color:#ea580c;"><i>d</i></b> = coefficient: piezoelectric modulus</div>
+<div><b style="color:#dc2626;"><i>E</i></b> = electric field strength</div>
+</div>
+</div>
+
+<div style="border-left:6px solid #ea580c; background:#fff7ed; color:#1f2937; border-radius:10px; padding:12px 18px; margin:1.2em 0;">
+<div style="font-weight:bold; color:#c2410c;">One coefficient for both directions</div>
+The <b>coefficient <i>d</i></b> is the <b>same for the direct and the reverse piezoelectric effect</b> for all substances.
+</div>
+
+<div style="border-top:4px solid #1d4ed8; margin-top:2em; padding-top:10px;">
+<div style="font-size:1.5em; font-weight:bold; color:#1d4ed8;">Side by side</div>
+</div>
+
+| | Direct effect | Reverse effect |
+|---|---|---|
+| Cause | mechanical force (stress) | electric field |
+| Effect | electric polarization, charge on the surface | change of dimensions (deformation) |
+| Formula | P = d · T | r = d · E |
+| Coefficient | d | the same d |
+
+<div style="border-left:6px solid #0284c7; background:#e0f2fe; color:#1f2937; border-radius:8px; padding:10px 16px; margin:1em 0;">
+<div style="font-weight:bold; color:#0369a1;">In simple words</div>
+<b>Direct:</b> squeeze the crystal and you get an electrical signal. That is what a <b>sensor</b> does (see Lecture 1).<br>
+<b>Reverse:</b> apply an electrical signal and the crystal changes its shape, a small movement. That is what an <b>actuator</b> does.
+</div>
+
+**Quick check 1:** A voltage is applied to a piezoelectric crystal and the crystal changes its dimensions. Which effect is this?
+
+- [( )] Direct piezoelectric effect
+- [(X)] Reverse piezoelectric effect
+
+**Quick check 2:** What is true for the coefficient d?
+
+- [( )] It only applies to the direct effect
+- [( )] It is different for every substance in the two effects
+- [(X)] It is the same for the direct and the reverse effect
+
+---
