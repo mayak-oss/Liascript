@@ -375,3 +375,75 @@ The <b>coefficient <i>d</i></b> is the <b>same for the direct and the reverse pi
 - [(X)] It is the same for the direct and the reverse effect
 
 ---
+
+## <span style="color: blue">Piezoelectric Applications</span>
+
+<div style="position:absolute; top:10px; right:10px; z-index:1000;">
+<img src="../Images/Logo.uni.png" alt="Logo" style="width:80px;">
+</div>
+
+<div style="border-left:6px solid #dc2626; background:#fee2e2; color:#1f2937; border-radius:10px; padding:12px 18px; margin:1.2em 0;">
+<div style="font-weight:bold; font-size:1.3em; color:#b91c1c;">The most famous application: an ignition element</div>
+<div style="margin-top:6px;">The piezoelectric effect is used in <b>pocket lighters</b> or <b>kitchen igniters for gas stoves</b>. When you press the crystal, a <b>potential difference</b> arises and a <b>spark</b> appears in the air gap.</div>
+</div>
+
+<div style="border-left:6px solid #0d9488; background:#ccfbf1; color:#1f2937; border-radius:10px; padding:12px 18px; margin:1.2em 0;">
+<div style="font-weight:bold; font-size:1.2em; color:#0f766e;">Electronic stethoscope</div>
+<div style="margin-top:6px;">Video: <a href="https://www.bing.com/videos/search?q=understanding+piezoelectric+effect" target="_blank">Understanding Piezoelectric effect!</a></div>
+</div>
+
+<div style="display:flex; flex-wrap:wrap; gap:16px; margin:1.5em 0;">
+
+<div style="text-align:center;">
+<video src="../Images/apps.p.mov" autoplay muted loop playsinline style="width:400px; max-width:100%;"></video>
+</div>
+
+<div style="flex:1 1 300px;">
+<div style="background:linear-gradient(135deg,#60a5fa,#2563eb); color:#fff; border-radius:12px 12px 0 0; padding:10px 16px; text-align:center;"><b style="font-size:1.2em;">Direct effect</b><br><small>a force produces an electrical signal</small></div>
+<div style="border-left:6px solid #2563eb; background:#dbeafe; color:#1f2937; padding:10px 16px; margin-top:10px;">
+<div style="font-weight:bold; color:#1d4ed8;">Strain sensors</div>
+Crystals with this effect can be used as <b>strain sensors</b>, but this scope of use is limited by the property of the piezoelectric effect to appear <b>only in dynamics</b>: if the changes stop, the signal stops generating.
+</div>
+<div style="border-left:6px solid #2563eb; background:#dbeafe; color:#1f2937; padding:10px 16px; margin-top:10px;">
+<div style="font-weight:bold; color:#1d4ed8;">Microphone</div>
+Piezo crystals can be used <b>as a microphone</b>: when exposed to acoustic waves, electrical signals are formed.
+</div>
+<div style="border:3px solid #7c3aed; background:#ede9fe; color:#1f2937; border-radius:8px; padding:10px 16px; margin-top:10px;">
+<b style="color:#6d28d9;">Can also be used in</b> <b><i>pressure, deformation, vibration, acceleration sensors</i></b>
+</div>
+</div>
+
+<div style="flex:1 1 300px;">
+<div style="background:linear-gradient(135deg,#fb923c,#ea580c); color:#fff; border-radius:12px 12px 0 0; padding:10px 16px; text-align:center;"><b style="font-size:1.2em;">Reverse effect</b><br><small>an electrical signal produces sound</small></div>
+<div style="border-left:6px solid #ea580c; background:#ffedd5; color:#1f2937; padding:10px 16px; margin-top:10px;">
+<div style="font-weight:bold; color:#c2410c;">Sound emitters</div>
+The reverse piezoelectric effect also allows (sometimes simultaneously) the use of such elements as <b>sound emitters</b>. When an electrical signal is applied to the crystal, the element begins to generate acoustic waves. Such emitters are widely used to create <b>ultrasonic waves</b>, in particular in <b>medical technology</b>.
+</div>
+<div style="border-left:6px solid #ea580c; background:#ffedd5; color:#1f2937; padding:10px 16px; margin-top:10px;">
+<div style="font-weight:bold; color:#c2410c;">Acoustic filter</div>
+In this case, the resonant properties of the plate can be used as an <b>acoustic filter</b> that selects only natural frequency waves.
+</div>
+<div style="border-left:6px solid #ea580c; background:#ffedd5; color:#1f2937; padding:10px 16px; margin-top:10px;">
+<div style="font-weight:bold; color:#c2410c;">Sound generator</div>
+A piezoelectric element can be used <b>in a sound generator</b> (siren, detector, etc.) simultaneously as a <b>frequency-setting and sound-emitting element</b>. The sound is always generated at the <b>resonant frequency</b>, and you can get the maximum volume with little energy.
+</div>
+</div>
+
+</div>
+
+<div style="border-left:6px solid #0284c7; background:#e0f2fe; color:#1f2937; border-radius:8px; padding:10px 16px; margin:1em 0;">
+<div style="font-weight:bold; color:#0369a1;">In simple words</div>
+Everything on the left side <b>measures</b> something: a force goes in, an electrical signal comes out. Everything on the right side <b>produces</b> something: an electrical signal goes in, and sound comes out. The "resonant" and "natural" frequency on the right is the topic of the Eigenfrequency phenomenon later in this lecture.
+</div>
+
+**Quick check 1:** Why can a piezoelectric crystal alone not measure a constant, unchanging force?
+
+- [(X)] The signal only appears while the force is changing
+- [( )] The crystal needs to be heated first
+- [( )] It only works with sound waves
+
+**Quick check 2:** Which of these applications uses the reverse piezoelectric effect?
+
+- [( )] Microphone
+- [(X)] Sound emitter for ultrasonic waves
+- [( )] Strain sensor
